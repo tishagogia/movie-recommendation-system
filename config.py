@@ -1,0 +1,47 @@
+"""
+Configuration settings for the Movie Recommendation System
+"""
+
+# Application settings
+APP_TITLE = "MovieMaster - Recommendation System"
+APP_VERSION = "1.0.0"
+APP_WIDTH = 1200
+APP_HEIGHT = 800
+APP_MIN_WIDTH = 800
+APP_MIN_HEIGHT = 600
+
+# File paths
+DATASET_PATH = "attached_assets/Dataset.csv"
+USER_DATA_PATH = "user_data/"
+
+# UI settings
+PRIMARY_COLOR = "#2c3e50"
+SECONDARY_COLOR = "#3498db"
+ACCENT_COLOR = "#e74c3c"
+BG_COLOR = "#ecf0f1"
+TEXT_COLOR = "#2c3e50"
+TEXT_COLOR_LIGHT = "#7f8c8d"
+TEXT_COLOR_INVERSE = "#ffffff"
+
+FONT_FAMILY = "Helvetica"
+FONT_SIZE_SMALL = 10
+FONT_SIZE_MEDIUM = 12
+FONT_SIZE_LARGE = 14
+FONT_SIZE_EXTRA_LARGE = 18
+FONT_SIZE_TITLE = 24
+
+PADDING_SMALL = 5
+PADDING_MEDIUM = 10
+PADDING_LARGE = 20
+
+BUTTON_PADDING = (8, 5)
+ENTRY_PADDING = (5, 5)
+
+# Search settings
+SEARCH_RESULT_LIMIT = 50
+TRENDING_MOVIES_COUNT = 10
+POPULAR_MOVIES_COUNT = 10
+
+# User settings
+PASSWORD_MIN_LENGTH = 6
+USERNAME_MIN_LENGTH = 3
